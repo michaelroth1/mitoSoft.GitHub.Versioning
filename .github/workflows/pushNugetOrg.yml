@@ -2,9 +2,9 @@
 
 name: Push Package To nuget.org
 on:
-  #push:
-   # branches:
-    #  - main # Default release branch
+  push:
+    branches:
+      - main # Default release branch
   workflow_dispatch:
 
 env:
