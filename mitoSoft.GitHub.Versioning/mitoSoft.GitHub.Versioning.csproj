@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>1.1.0</Version>
     <Authors>mitoSoft</Authors>
     <Description>Small library to compare an assembly version with a git release version to check if a update of your executable is neccessary.</Description>
     <Copyright>(c)mitoSoft</Copyright>

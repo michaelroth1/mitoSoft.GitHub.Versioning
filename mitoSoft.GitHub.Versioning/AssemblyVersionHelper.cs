@@ -7,7 +7,7 @@ namespace mitoSoft.GitHub.Versioning
     {
         public Assembly Assembly { get; }
 
-        public AssemblyVersionHelper() : this(System.Reflection.Assembly.GetExecutingAssembly())
+        public AssemblyVersionHelper() : this(System.Reflection.Assembly.GetCallingAssembly())
         {
         }
 
