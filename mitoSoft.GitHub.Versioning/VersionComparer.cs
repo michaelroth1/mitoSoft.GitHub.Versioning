@@ -41,7 +41,7 @@ namespace mitoSoft.GitHub.Versioning
         /// </summary>
         public virtual bool IsUpToDate(string owner, string repoName, Assembly assembly, string accessToken)
         {
-            this.LocalVersion = assembly.GetName().Version;
+            this.LocalVersion = (new AssemblyVersionHelper(assembly)).GetVersion();
 
             var productInformation = new ProductHeaderValue(repoName);
 
